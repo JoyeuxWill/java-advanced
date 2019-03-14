@@ -12,50 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/src/com/java/util/IntegerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/src/com/java/util/RandomColor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Lotto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Line.java">
+        <entry file="file://$PROJECT_DIR$/util/src/com/java/util/DateAndTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            <state relative-caret-position="812">
+              <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,6 +45,8 @@
         <option value="$PROJECT_DIR$/util/src/com/java/util/RandomColor.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/Lotto.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/Line.java" />
+        <option value="$PROJECT_DIR$/util/src/com/java/util/DateFormatTest.java" />
+        <option value="$PROJECT_DIR$/util/src/com/java/util/DateAndTime.java" />
       </list>
     </option>
   </component>
@@ -110,6 +73,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,14 +97,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552529847600" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552586238509" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -160,7 +123,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DateFormatTest">
+  <component name="RunManager" selected="Application.DateAndTime">
+    <configuration name="DateAndTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.util.DateAndTime" />
+      <module name="util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DateFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.util.DateFormatTest" />
       <module name="util" />
@@ -213,26 +189,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.util.RandomDemo" />
-      <module name="util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateAndTime" />
         <item itemvalue="Application.DateFormatTest" />
         <item itemvalue="Application.Line" />
         <item itemvalue="Application.Lotto" />
         <item itemvalue="Application.RandomColor" />
-        <item itemvalue="Application.RandomDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +214,8 @@
       <workItem from="1552392276361" duration="373000" />
       <workItem from="1552398294419" duration="423000" />
       <workItem from="1552458685729" duration="754000" />
+      <workItem from="1552529741557" duration="323000" />
+      <workItem from="1552583875766" duration="2358000" />
     </task>
     <task id="LOCAL-00001" summary="整型与进制">
       <created>1552355155804</created>
@@ -280,31 +245,37 @@
       <option name="project" value="LOCAL" />
       <updated>1552459149109</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="关于日期、时间、地点格式化的练习">
+      <created>1552529918322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552529918324</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12343000" />
+    <option name="totallyTimeSpent" value="15024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26363635" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27062938" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32963988" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32918397" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32825485" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.8601108" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -329,7 +300,8 @@
     <MESSAGE value="整型与进制练习" />
     <MESSAGE value="大乐透" />
     <MESSAGE value="随机画一条线" />
-    <option name="LAST_COMMIT_MESSAGE" value="随机画一条线" />
+    <MESSAGE value="关于日期、时间、地点格式化的练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="关于日期、时间、地点格式化的练习" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Hello.java" />
@@ -349,25 +321,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Lotto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="168">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/RandomColor.java">
+    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Line.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="308">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Line.java">
+    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/DateFormatTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="98">
+          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/RandomColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/DateAndTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
