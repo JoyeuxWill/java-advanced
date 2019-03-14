@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Line.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="518">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +139,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552459076697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552529847600" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -160,9 +160,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Line">
-    <configuration name="IntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.util.IntegerDemo" />
+  <component name="RunManager" selected="Application.DateFormatTest">
+    <configuration name="DateFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.util.DateFormatTest" />
       <module name="util" />
       <extension name="coverage">
         <pattern>
@@ -228,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateFormatTest" />
         <item itemvalue="Application.Line" />
         <item itemvalue="Application.Lotto" />
         <item itemvalue="Application.RandomColor" />
         <item itemvalue="Application.RandomDemo" />
-        <item itemvalue="Application.IntegerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +250,7 @@
       <workItem from="1552363807193" duration="23000" />
       <workItem from="1552392276361" duration="373000" />
       <workItem from="1552398294419" duration="423000" />
-      <workItem from="1552458685729" duration="280000" />
+      <workItem from="1552458685729" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="整型与进制">
       <created>1552355155804</created>
@@ -273,11 +273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552392601392</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="随机画一条线">
+      <created>1552459149108</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552459149109</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11869000" />
+    <option name="totallyTimeSpent" value="12343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
@@ -297,7 +304,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32825485" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32825485" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -321,7 +328,8 @@
     <MESSAGE value="整型与进制" />
     <MESSAGE value="整型与进制练习" />
     <MESSAGE value="大乐透" />
-    <option name="LAST_COMMIT_MESSAGE" value="大乐透" />
+    <MESSAGE value="随机画一条线" />
+    <option name="LAST_COMMIT_MESSAGE" value="随机画一条线" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Hello.java" />
@@ -358,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Line.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="518">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
