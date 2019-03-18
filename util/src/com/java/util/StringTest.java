@@ -1,17 +1,17 @@
 package com.java.util;
 
-public class String {
+public class StringTest {
     //定义次数
     private static int time = 10000;
 
-    public static void main(java.lang.String[] args) {
+    public static void main(String[] args) {
         testString();
         testStringBuffer();
         testStringBuilder();
     }
 
     public static void testString() {
-        java.lang.String s = "";
+        String s = "";
         //获取以毫秒为单位的当前开始时间
         long begin = System.currentTimeMillis();
         //调用5000次String的拼接操作，每次都会生成新的String对象！
@@ -44,4 +44,3 @@ public class String {
         System.out.println("操作StringBuilder类型使用的时间为：" + (over - begin) + "毫秒");
     }
 }
-
