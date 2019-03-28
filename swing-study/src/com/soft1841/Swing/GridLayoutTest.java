@@ -50,7 +50,7 @@ public class GridLayoutTest extends JFrame{
         panels[1].add(new JButton("中"),BorderLayout.CENTER);
         // 设置第三个面板为GridLayout网格布局，设置背景色
         panels[2].setLayout(new GridLayout(3,3,10,10));
-        panels[2].setBackground(new Color(227,232,147));
+        panels[2].setBackground(new Color(167,232,147));
         // 依次添加九个按钮
         for (int i = 0 ; i < 9; i++){
             panels[2].add(new JButton(String.valueOf(i + 1)));
@@ -68,14 +68,14 @@ public class GridLayoutTest extends JFrame{
         }
         //第六个面板
         panels[5].setLayout(new GridLayout(1,1,5,5));
-        panels[5].setBackground(new Color(14,18,49));
+        panels[5].setBackground(new Color(89,18,49));
         for (int i = 0; i<5; i++){
             panels[5].add(new JButton(String.valueOf(i + 1)));
         }
 
         //第七个面板
         panels[6].setLayout(new BorderLayout(10,5));
-        panels[6].setBackground(new Color(217,15,52));
+        panels[6].setBackground(new Color(113,15,52));
         // 五个方向加入按钮
         panels[6].add(new JButton("北"),BorderLayout.NORTH);
         panels[6].add(new JButton("南"),BorderLayout.SOUTH);
@@ -84,7 +84,7 @@ public class GridLayoutTest extends JFrame{
         panels[6].add(new JButton("中"),BorderLayout.CENTER);
         //第八个面板
         panels[7].setLayout(new GridLayout(5,5,0,10));
-        panels[7].setBackground(new Color(114,18,49));
+        panels[7].setBackground(new Color(228,18,49));
         for (int i = 0; i<10; i++){
             panels[7].add(new JButton(String.valueOf(i + 1)));
         }

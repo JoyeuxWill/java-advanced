@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c47706-7035-499f-94b7-7fee20d0d242" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/GridLayoutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/ImageFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/WriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swing-study/jar/beautyeye_lnf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/LoginFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swing-study/src/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swing-study/swing-study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/BorderLayoutPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/BorderLayoutPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/BorderLayoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/BorderLayoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/FlowLayoutPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/FlowLayoutPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/GridLayoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/GridLayoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/Season.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/ImageFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="980">
               <caret line="39" selection-start-line="39" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -41,11 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/GridLayoutTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/GridLayoutTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="28">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/LoginFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1764">
+              <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/util/src/com/java/util/IntegerDemo.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/Lotto.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/Line.java" />
@@ -131,6 +149,7 @@
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/WriteFile.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/ImageFrame.java" />
         <option value="$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/GridLayoutTest.java" />
+        <option value="$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/LoginFrame.java" />
       </list>
     </option>
   </component>
@@ -142,6 +161,12 @@
         <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="70" />
@@ -162,55 +187,25 @@
           <expand>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collection-study" type="462c0819:PsiDirectoryNode" />
+              <item name="swing-study" type="47feb1d3:ProjectViewModuleNode" />
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collection-study" type="462c0819:PsiDirectoryNode" />
+              <item name="swing-study" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="swing-study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swing-study" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="swing-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collection-study" type="462c0819:PsiDirectoryNode" />
+              <item name="swing-study" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="swing-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="soft1841" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collection-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="soft1841" type="462c0819:PsiDirectoryNode" />
               <item name="Swing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io-study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="soft1841" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,19 +217,27 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553666577866" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookmanage" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553735483795" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/swing-study/jar/beautyeye_lnf.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.soft1841.comparable" />
       <recent name="com.soft1841.Comparable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\java-advanced\swing-study" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\java-advanced\swing-study\jar" />
+      <recent name="D:\JavaStudy\java-advanced\swing-study\src\jar" />
+      <recent name="D:\JavaStudy\java-advanced\swing-study\src\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GridLayoutTest">
+  <component name="RunManager" selected="Application.LoginFrame">
     <configuration name="GridLayoutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.Swing.GridLayoutTest" />
       <module name="collection-study" />
@@ -276,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PictureCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.io.PictureCopy" />
-      <module name="io-study" />
+    <configuration name="LoginFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.Swing.LoginFrame" />
+      <module name="swing-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.io.*" />
+          <option name="PATTERN" value="com.soft1841.Swing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoginFrame" />
         <item itemvalue="Application.GridLayoutTest" />
         <item itemvalue="Application.ImageFrame" />
         <item itemvalue="Application.WriteFile" />
         <item itemvalue="Application.TxtCopy" />
-        <item itemvalue="Application.PictureCopy" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +366,9 @@
       <workItem from="1553470653715" duration="178000" />
       <workItem from="1553499180542" duration="5146000" />
       <workItem from="1553558457515" duration="9982000" />
-      <workItem from="1553665525671" duration="1017000" />
+      <workItem from="1553665525671" duration="1227000" />
+      <workItem from="1553684596727" duration="1181000" />
+      <workItem from="1553733615581" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary="整型与进制">
       <created>1552355155804</created>
@@ -470,22 +475,28 @@
       <option name="project" value="LOCAL" />
       <updated>1553562837846</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="GridLayout练习">
+      <created>1553666610206</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1553666610206</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66349000" />
+    <option name="totallyTimeSpent" value="69592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22727273" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23426573" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.15927978" />
@@ -494,7 +505,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32963988" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3033241" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3033241" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32963988" />
@@ -504,7 +515,7 @@
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32937062" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -602,7 +613,8 @@
     <MESSAGE value="calender练习" />
     <MESSAGE value="Swing--flowlayout练习" />
     <MESSAGE value="2019/3/26" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/3/26" />
+    <MESSAGE value="GridLayout练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="GridLayout练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -612,6 +624,18 @@
           <line>5</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/GridLayoutTest.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/GridLayoutTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -849,7 +873,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/Season.java">
+    <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/Season.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
@@ -859,7 +883,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/FlowLayoutPosition.java">
+    <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/FlowLayoutPosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
@@ -889,7 +913,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/BorderLayoutPosition.java">
+    <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/BorderLayoutPosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
@@ -901,7 +925,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/BorderLayoutTest.java">
+    <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/BorderLayoutTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
@@ -950,7 +974,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/ImageFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="980">
           <caret line="39" selection-start-line="39" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -968,10 +992,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/Swing/GridLayoutTest.java">
+    <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/GridLayoutTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/LoginFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1030,12 +1071,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>util</last-edited>
+          <last-edited>swing-study</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
