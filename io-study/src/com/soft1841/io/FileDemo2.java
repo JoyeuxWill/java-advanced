@@ -1,7 +1,6 @@
 package com.soft1841.io;
 
 import java.io.File;
-import java.nio.file.Path;
 
 public class FileDemo2 {
     public static void main(String[] args) {
