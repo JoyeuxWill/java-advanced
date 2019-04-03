@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c47706-7035-499f-94b7-7fee20d0d242" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/JFileChooserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/ImageViewerFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedReaderWriterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io-study/src/com/soft1841/io/FileDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/FileDemo2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +27,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/ImageViewerFrame.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2170">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="112">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedReaderWriterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/WeChat Files/wxid_bg268nsh142m22/FileStorage/File/2019-04/BufferedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1400">
+              <caret line="50" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -53,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/util/src/com/java/util/DateAndTime.java" />
-        <option value="$PROJECT_DIR$/util/src/Demo/HelloWorld.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/RandomColor.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/StringTest.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/DateDifferentExample.java" />
@@ -104,6 +118,8 @@
         <option value="$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/JFileChooserTest.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/JFileChooserTest.java" />
         <option value="$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/ImageViewerFrame.java" />
+        <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedStreamTest.java" />
+        <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedReaderWriterTest.java" />
       </list>
     </option>
   </component>
@@ -186,7 +202,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554246640184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554329842398" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/swing-study/jar/beautyeye_lnf.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -221,7 +237,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BufferedStreamTest">
+  <component name="RunManager" selected="Application.BufferedReaderWriterTest">
+    <configuration name="BufferedReaderWriterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.io.BufferedReaderWriterTest" />
+      <module name="io-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BufferedStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.io.BufferedStreamTest" />
       <module name="io-study" />
@@ -274,26 +303,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PictureReaderFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.io.PictureReaderFrame" />
-      <module name="io-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BufferedReaderWriterTest" />
         <item itemvalue="Application.BufferedStreamTest" />
         <item itemvalue="Application.ImageViewerFrame" />
         <item itemvalue="Application.JFileChooserTest" />
         <item itemvalue="Application.CardLayoutTest" />
-        <item itemvalue="Application.PictureReaderFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -344,6 +360,8 @@
       <workItem from="1554103605589" duration="6315000" />
       <workItem from="1554115733006" duration="464000" />
       <workItem from="1554162158674" duration="10685000" />
+      <workItem from="1554246484040" duration="329000" />
+      <workItem from="1554329564583" duration="209000" />
     </task>
     <task id="LOCAL-00001" summary="整型与进制">
       <created>1552355155804</created>
@@ -478,11 +496,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554162597117</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="BufferedStream练习">
+      <created>1554246732226</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1554246732226</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88991000" />
+    <option name="totallyTimeSpent" value="89561000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -494,7 +519,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -502,7 +527,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24463807" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25174826" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.15927978" />
@@ -623,7 +648,8 @@
     <MESSAGE value="空布局管理器练习" />
     <MESSAGE value="BoxLayout练习" />
     <MESSAGE value="cardlayout练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="cardlayout练习" />
+    <MESSAGE value="BufferedStream练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="BufferedStream练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -650,25 +676,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/String.java" />
-    <entry file="file://$PROJECT_DIR$/util/src/com/soft1841/RandomColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/com/soft1841/Lotto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/NBAStarTest.java" />
     <entry file="file://$PROJECT_DIR$/util/src/com/java/util/ListTest.java" />
     <entry file="file://$PROJECT_DIR$/util/src/com/soft1841/DateFormatTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1082,8 +1089,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/Swing/ImageViewerFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2170">
+        <state relative-caret-position="28">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/wxid_bg268nsh142m22/FileStorage/File/2019-04/BufferedStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/wxid_bg268nsh142m22/FileStorage/File/2019-04/BufferedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedReaderWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
         </state>
       </provider>
     </entry>
