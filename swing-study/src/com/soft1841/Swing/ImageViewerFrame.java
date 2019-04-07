@@ -22,7 +22,7 @@ public class ImageViewerFrame extends JFrame implements ActionListener {
 
     public ImageViewerFrame(){
         init();
-        setTitle("使用卡片布局实现多图浏览功能");
+        setTitle("图片浏览器");
         setSize(new Dimension(1920,1080));
         setLocationRelativeTo(null);
         setVisible(true);
