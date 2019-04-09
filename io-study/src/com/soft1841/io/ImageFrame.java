@@ -3,7 +3,6 @@ package com.soft1841.io;
 import javax.swing.*;
 import java.awt.*;
 import java.io.*;
-import java.sql.Time;
 import java.time.LocalTime;
 
 public class ImageFrame extends JFrame {

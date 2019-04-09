@@ -31,7 +31,6 @@ public class JFileChooserTest extends JFrame implements ActionListener {
         Font font = new Font("微软雅黑",Font.BOLD,28);
         pathLabel.setFont(font);
         add(pathLabel);
-
     }
 
 
