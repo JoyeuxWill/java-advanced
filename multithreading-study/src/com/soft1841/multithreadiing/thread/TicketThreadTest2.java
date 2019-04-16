@@ -1,4 +1,4 @@
-package com.soft1841.multithreadiing;
+package com.soft1841.multithreadiing.thread;
 /**
  * 多线程售票程序
  * 继承Runnable接口的方式实现

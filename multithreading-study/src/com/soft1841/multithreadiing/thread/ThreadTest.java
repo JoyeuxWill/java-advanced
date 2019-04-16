@@ -1,4 +1,4 @@
-package com.soft1841.multithreadiing;
+package com.soft1841.multithreadiing.thread;
 
 public class ThreadTest extends  Thread {
     private int count = 10;

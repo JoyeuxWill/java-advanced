@@ -1,4 +1,4 @@
-package com.soft1841.multithreadiing;
+package com.soft1841.multithreadiing.thread;
 
 import java.io.*;
 import java.net.HttpURLConnection;
