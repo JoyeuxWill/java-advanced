@@ -10,8 +10,22 @@ public class Server {
         System.out.println("服务器启动，端口号： " + serverSocket.getLocalPort());
         while (true){
             Socket socket = serverSocket.accept();
-            System.out.println("客户端：" + socket.getInetAddress() + "上线了");
-            socket.close();
+            ServerThread serverThread = new ServerThread();
+            serverThread.setSocket(socket);
+            new Thread(serverThread).start();
         }
+    }
+}
+
+class ServerThread implements Runnable{
+    private Socket socket;
+
+    public void setSocket(Socket socket) {
+        this.socket = socket;
+    }
+
+    @Override
+    public void run() {
+        System.out.println("客户端"+socket.getInetAddress()+"连接成功！");
     }
 }

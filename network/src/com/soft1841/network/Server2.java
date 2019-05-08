@@ -1,40 +1,54 @@
 package com.soft1841.network;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.UUID;
+
 
 public class Server2 {
     public static void main(String[] args) throws IOException {
-        ServerSocket serverSocket = new ServerSocket(12345);
-        System.out.println("服务器启动");
-        while (true) {
-            Socket socket = serverSocket.accept();
-            ServerThread1 server = new ServerThread1(socket);
-            new Thread(server).start();
+            ServerSocket ss = new ServerSocket(15003);
+            System.out.println("服务器启动成功");
+            Socket socket;
+            while (true) {
+                socket = ss.accept();
+                ServerThread2 serverThread2 = new ServerThread2();
+                serverThread2.setSocket(socket);
+                new Thread(serverThread2).start();
+            }
         }
     }
-}
-class ServerThread1 implements Runnable{
-    private  Socket socket;
-    public ServerThread1(Socket socket){
-        this.socket = socket;
-    }
-    @Override
-    public void run() {
-        System.out.println("客户端"+socket.getInetAddress()+"连接成功！");
-        InputStream inputStream = null;
-        try {
-            inputStream = socket.getInputStream();
-            BufferedReader br  = new BufferedReader(new InputStreamReader(inputStream));
-            System.out.println(br.readLine());
-            br.close();
-            socket.close();
-        } catch (IOException e) {
-            e.printStackTrace();
+
+    class ServerThread2 implements Runnable {
+        private Socket socket;
+
+        public void setSocket(Socket socket) {
+            this.socket = socket;
         }
+
+        @Override
+        public void run() {
+            System.out.println("客户端" + socket.getInetAddress() + "上线了!!");
+            try {
+                InputStream in = socket.getInputStream();
+                BufferedInputStream bin = new BufferedInputStream(in);
+                File file = new File(System.getProperty("user.dir") + "\\" + UUID.randomUUID().toString() + ".jpg");
+                OutputStream out = new FileOutputStream(file);
+                BufferedOutputStream bout = new BufferedOutputStream(out);
+                byte[] date = new byte[1024];
+                int tmp;
+                while ((tmp = bin.read(date)) != -1) {
+                    bout.write(date, 0, tmp);
+                }
+                bin.close();
+                bout.close();
+                socket.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
     }
-}
+
+
