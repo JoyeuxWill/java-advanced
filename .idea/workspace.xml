@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c47706-7035-499f-94b7-7fee20d0d242" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/network/src/com/soft1841/network/Client4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/com/soft1841/network/Server4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/com/soft1841/network/UDPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/com/soft1841/network/UDPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,25 +31,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/Server4.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/UDPClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="252">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/Client4.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/UDPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="700">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/Test.java" />
-        <option value="$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/Team.java" />
         <option value="$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/TimeThread.java" />
         <option value="$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/NumThread.java" />
         <option value="$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/RgbThread.java" />
@@ -124,6 +120,8 @@
         <option value="$PROJECT_DIR$/network/src/com/soft1841/network/Client3.java" />
         <option value="$PROJECT_DIR$/network/src/com/soft1841/network/Client4.java" />
         <option value="$PROJECT_DIR$/network/src/com/soft1841/network/Server4.java" />
+        <option value="$PROJECT_DIR$/network/src/com/soft1841/network/UDPServer.java" />
+        <option value="$PROJECT_DIR$/network/src/com/soft1841/network/UDPClient.java" />
       </list>
     </option>
   </component>
@@ -155,8 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,6 +175,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,20 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client4">
-    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.network.Client2" />
-      <module name="network" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.network.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UDPClient">
     <configuration name="Client3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.network.Client3" />
       <module name="network" />
@@ -268,19 +253,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.network.Server3" />
-      <module name="network" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.network.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Server4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.network.Server4" />
       <module name="network" />
@@ -294,13 +266,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UDPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.network.UDPClient" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UDPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.network.UDPServer" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UDPClient" />
+        <item itemvalue="Application.UDPServer" />
         <item itemvalue="Application.Client4" />
         <item itemvalue="Application.Server4" />
         <item itemvalue="Application.Client3" />
-        <item itemvalue="Application.Server3" />
-        <item itemvalue="Application.Client2" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +395,8 @@
       <workItem from="1557187053630" duration="5780000" />
       <workItem from="1557245648200" duration="69000" />
       <workItem from="1557281444841" duration="360000" />
-      <workItem from="1557360296919" duration="501000" />
+      <workItem from="1557360296919" duration="643000" />
+      <workItem from="1557440032650" duration="252000" />
     </task>
     <task id="LOCAL-00001" summary="整型与进制">
       <created>1552355155804</created>
@@ -595,11 +594,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557281784296</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="服务器向客户端发送非文本信息">
+      <created>1557360922989</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1557360922990</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194022000" />
+    <option name="totallyTimeSpent" value="194416000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -619,7 +625,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21983914" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22252011" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.15927978" />
@@ -692,7 +698,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/util" />
     </ignored-roots>
-    <MESSAGE value="整型与进制练习" />
     <MESSAGE value="大乐透" />
     <MESSAGE value="随机画一条线" />
     <MESSAGE value="关于日期、时间、地点格式化的练习" />
@@ -717,7 +722,8 @@
     <MESSAGE value="JSoup爬取网络图片" />
     <MESSAGE value="网络编程" />
     <MESSAGE value="服务器向客户端发送文本信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="服务器向客户端发送文本信息" />
+    <MESSAGE value="服务器向客户端发送非文本信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务器向客户端发送非文本信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -748,26 +754,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/thread/DrawImageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/thread/DrawLineThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/thread/NumberThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1124,24 +1110,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/Client4.java">
+    <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/Server4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="336">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/Server4.java">
+    <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/Client4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/UDPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/UDPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
