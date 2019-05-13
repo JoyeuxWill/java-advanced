@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="gui-form:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d2c47706-7035-499f-94b7-7fee20d0d242" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gui-form/gui-form.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQLogin.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui-form/src/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui-form/src/img/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui-form/src/img/btn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/gui_form_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -238,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QQLogin">
+  <component name="RunManager" selected="Application.TIMLogin">
     <configuration name="Client4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.network.Client4" />
       <module name="network" />
@@ -252,12 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QQLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.gui.QQLogin" />
-      <module name="gui-form" />
+    <configuration name="Server4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.network.Server4" />
+      <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.gui.*" />
+          <option name="PATTERN" value="com.soft1841.network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.network.Server4" />
-      <module name="network" />
+    <configuration name="TIMLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.gui.TIMLogin" />
+      <module name="gui-form" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.network.*" />
+          <option name="PATTERN" value="com.soft1841.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,7 +306,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QQLogin" />
+        <item itemvalue="Application.TIMLogin" />
         <item itemvalue="Application.UDPClient" />
         <item itemvalue="Application.UDPServer" />
         <item itemvalue="Application.Client4" />
@@ -409,7 +409,7 @@
       <workItem from="1557281444841" duration="360000" />
       <workItem from="1557360296919" duration="643000" />
       <workItem from="1557440032650" duration="421000" />
-      <workItem from="1557703232853" duration="4061000" />
+      <workItem from="1557703232853" duration="4322000" />
     </task>
     <task id="LOCAL-00001" summary="整型与进制">
       <created>1552355155804</created>
@@ -621,11 +621,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557440385015</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="gui-form">
+      <created>1557707587594</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1557707587594</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198646000" />
+    <option name="totallyTimeSpent" value="198907000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -748,7 +755,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/util" />
     </ignored-roots>
-    <MESSAGE value="随机画一条线" />
     <MESSAGE value="关于日期、时间、地点格式化的练习" />
     <MESSAGE value="String类的练习" />
     <MESSAGE value="时间计算" />
@@ -773,7 +779,8 @@
     <MESSAGE value="服务器向客户端发送文本信息" />
     <MESSAGE value="服务器向客户端发送非文本信息" />
     <MESSAGE value="UDP编程" />
-    <option name="LAST_COMMIT_MESSAGE" value="UDP编程" />
+    <MESSAGE value="gui-form" />
+    <option name="LAST_COMMIT_MESSAGE" value="gui-form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1263,7 +1270,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>multithreading-study</last-edited>
+          <last-edited>gui-form</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

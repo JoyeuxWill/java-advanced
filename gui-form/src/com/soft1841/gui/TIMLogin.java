@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class QQLogin {
+public class TIMLogin {
     private JPanel mainPanel;
     private JLabel bannerLabel;
     private JTextField textField1;
@@ -14,7 +14,7 @@ public class QQLogin {
     private JCheckBox 自动登录CheckBox;
     private JButton loginBtn;
 
-    public QQLogin() {
+    public TIMLogin() {
         loginBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -25,8 +25,8 @@ public class QQLogin {
 
     public static void main(String[] args) throws Exception{
         UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
-        JFrame frame = new JFrame("QQLogin");
-        frame.setContentPane(new QQLogin().mainPanel);
+        JFrame frame = new JFrame("TIMLogin");
+        frame.setContentPane(new TIMLogin().mainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(540,490);
         frame.setLocationRelativeTo(null);
