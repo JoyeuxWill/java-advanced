@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c47706-7035-499f-94b7-7fee20d0d242" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/network/src/com/soft1841/network/UDPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/com/soft1841/network/UDPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/gui-form.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQLogin.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui-form/src/img/btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,27 +37,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/UDPClient.java">
+        <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="364">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui-form/src/img/banner.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/UDPServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQLogin.form">
+          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
     </leaf>
@@ -71,8 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/TimeThread.java" />
-        <option value="$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/NumThread.java" />
         <option value="$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/RgbThread.java" />
         <option value="$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/BGTread.java" />
         <option value="$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/NumFrame.java" />
@@ -122,6 +125,8 @@
         <option value="$PROJECT_DIR$/network/src/com/soft1841/network/Server4.java" />
         <option value="$PROJECT_DIR$/network/src/com/soft1841/network/UDPServer.java" />
         <option value="$PROJECT_DIR$/network/src/com/soft1841/network/UDPClient.java" />
+        <option value="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQLogin.java" />
+        <option value="$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQLogin.form" />
       </list>
     </option>
   </component>
@@ -153,30 +158,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="gui-form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="gui-form" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="gui-form" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gui-form" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,13 +195,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554777640676" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gui-form/src/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -202,16 +213,17 @@
       <recent name="com.soft1841.comparable" />
       <recent name="com.soft1841.Comparable" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaStudy\java-advanced\multithreading-study" />
-      <recent name="D:\JavaStudy\java-advanced\swing-study" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\java-advanced\gui-form\src\img" />
       <recent name="D:\JavaStudy\java-advanced\multithreading-study" />
       <recent name="D:\JavaStudy\java-advanced\multithreading-study\src\img" />
       <recent name="D:\JavaStudy\java-advanced\multithreading-study\jar" />
       <recent name="D:\JavaStudy\java-advanced\multithreading-study\src\com\soft1841\multithreadiing\jsoup" />
-      <recent name="D:\JavaStudy\java-advanced\multithreading-study\src\com\soft1841\multithreadiing\thread" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\java-advanced\gui-form\src" />
+      <recent name="D:\JavaStudy\java-advanced\multithreading-study" />
+      <recent name="D:\JavaStudy\java-advanced\swing-study" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,9 +238,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UDPClient">
-    <configuration name="Client3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.network.Client3" />
+  <component name="RunManager" selected="Application.QQLogin">
+    <configuration name="Client4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.network.Client4" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
@@ -240,12 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.network.Client4" />
-      <module name="network" />
+    <configuration name="QQLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.gui.QQLogin" />
+      <module name="gui-form" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.network.*" />
+          <option name="PATTERN" value="com.soft1841.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QQLogin" />
         <item itemvalue="Application.UDPClient" />
         <item itemvalue="Application.UDPServer" />
         <item itemvalue="Application.Client4" />
         <item itemvalue="Application.Server4" />
-        <item itemvalue="Application.Client3" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +408,8 @@
       <workItem from="1557245648200" duration="69000" />
       <workItem from="1557281444841" duration="360000" />
       <workItem from="1557360296919" duration="643000" />
-      <workItem from="1557440032650" duration="252000" />
+      <workItem from="1557440032650" duration="421000" />
+      <workItem from="1557703232853" duration="4061000" />
     </task>
     <task id="LOCAL-00001" summary="整型与进制">
       <created>1552355155804</created>
@@ -601,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557360922990</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="UDP编程">
+      <created>1557440385015</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1557440385015</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194416000" />
+    <option name="totallyTimeSpent" value="198646000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -618,14 +638,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22252011" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22520107" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.15927978" />
@@ -650,6 +669,37 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.24965034" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22520107" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.15927978" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32825485" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32963988" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.5" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39889196" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32963988" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32963988" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32937062" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32867134" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24965034" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -698,7 +748,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/util" />
     </ignored-roots>
-    <MESSAGE value="大乐透" />
     <MESSAGE value="随机画一条线" />
     <MESSAGE value="关于日期、时间、地点格式化的练习" />
     <MESSAGE value="String类的练习" />
@@ -723,7 +772,8 @@
     <MESSAGE value="网络编程" />
     <MESSAGE value="服务器向客户端发送文本信息" />
     <MESSAGE value="服务器向客户端发送非文本信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="服务器向客户端发送非文本信息" />
+    <MESSAGE value="UDP编程" />
+    <option name="LAST_COMMIT_MESSAGE" value="UDP编程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,18 +804,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/thread/NumberThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/wxid_bg268nsh142m22/FileStorage/File/2019-04/Demo1.java" />
-    <entry file="file://$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/createthreads/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/thread/DrawConcerntricCircle.java" />
     <entry file="file://$PROJECT_DIR$/multithreading-study/src/com/soft1841/multithreadiing/timer/TimerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1132,8 +1170,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/UDPClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="84">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1142,13 +1180,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/network/src/com/soft1841/network/UDPServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="616">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui-form/src/img/avatar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui-form/src/img/banner.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/QQLogin.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1156,10 +1215,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>gui-form:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
